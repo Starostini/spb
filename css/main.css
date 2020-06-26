@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none; }
+
+.header-page {
+  background-image: url(../img/header-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 1045px; }
+
+.social {
+  background: rgba(51, 51, 51, 0.75); }
+
+.social__text {
+  transform: rotate(-90deg);
+  color: #c4c4c4;
+  position: relative;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-left: 150px;
+  max-width: 350px; }
+  .social__text:before {
+    content: "";
+    background-image: url(../img/Line.svg);
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    top: 50%;
+    left: 40px; }
+
+.social__list {
+  width: 50px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */
