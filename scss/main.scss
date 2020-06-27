@@ -213,3 +213,10 @@
 //         fill: #d1a954;
 //     }
 }
+
+.right-btn,
+.left-btn {
+    &:hover {
+        color: #d1a954;
+    }
+}
