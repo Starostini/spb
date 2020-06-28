@@ -1,16 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
 ul {
     list-style-type: none;
 }
 .container {
     padding: 0 405px;
     margin: 0 auto;
+    max-width: 2920px;
+    
 }
 a {
     text-decoration: none;
     color: #FFFFFF;
 }
+span {
+    color: #D1A954;
+}
 
 body {
     font-family: "Open Sans Condensed", sans-serif;
     color: #ffffff;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+margin: 0 auto;
 }

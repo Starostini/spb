@@ -5,7 +5,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     // height: 100vh;
     height: 1045px;
     position: relative;
@@ -57,7 +56,6 @@
     flex-direction: column;
     justify-content: flex-end;
     max-width: 150px;
-    min-width: 150px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -74,11 +72,10 @@
     &__text {
         transform: rotate(-90deg);
         color: #c4c4c4;
-        min-width: 300px;
+        min-width: 440px;
         bottom: 22%;
-        left: -151px;
+        left: -147px;
         position: relative;
-        font-family: "Open Sans Condensed", sans-serif;
         font-weight: bold;
         font-size: 18px;
         line-height: 25px;
@@ -109,7 +106,7 @@
 }
 
 .navigation {
-    margin-top: 51px;
+    padding-top: 51px;
     display: flex;
     justify-content: space-between;
     &__list {
@@ -127,7 +124,6 @@
 }
 .nav-btn,
 .navigation-phone {
-    font-family: "Open Sans Condensed", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 15px;
@@ -209,14 +205,64 @@
     &:hover {
         color: #d1a954;
     }
-//     &::before:hover {
-//         fill: #d1a954;
-//     }
+    //     &::before:hover {
+    //         fill: #d1a954;
+    //     }
 }
 
 .right-btn,
 .left-btn {
-    &:hover {
-        color: #d1a954;
+    &:hover svg {
+        fill: #d1a954;
+    }
+}
+
+.about {
+    background-color: #333333;
+
+    &__title {
+        text-align: center;
+        font-weight: 300;
+        font-size: 48px;
+        line-height: 65px;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding-top: 150px;
+        padding-bottom: 100px;
+    }
+    &__theater-title,
+    &__number-title {
+        font-weight: bold;
+        font-size: 21px;
+        line-height: 29px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        padding-bottom: 40px;
+    }
+    &__theater-text {
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 150%;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 75px;
+    }
+    &__number {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__number-text {
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.05em;
+        margin-left: 0;
+    }
+    &__img {
+        height: 292px;
     }
 }
