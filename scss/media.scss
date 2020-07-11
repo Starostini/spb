@@ -1,1 +1,51 @@
 @import "variables";
+
+@media screen and (max-width: 1835px) {
+    .container {
+        padding-left: 191px;
+        padding-right: 109px;
+    }
+    // .navigation {
+    //     justify-content: center;
+    //     flex-wrap: wrap;
+    //     &__list {
+    //         margin-bottom: 50px;
+    //     }
+    // }
+}
+@media screen and (max-width: 1324px) {
+
+    .navigation {
+        justify-content: center;
+        flex-wrap: wrap;
+        &__list {
+            margin-bottom: 50px;
+        }
+    }
+    .about__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1245px) {
+    .header__right {
+        display: none;
+    }
+    .navigation__list-item {
+        padding-right: 50px;
+    }
+
+}
+@media screen and (max-width: 1180px) {
+    .navigation__list-item {
+        padding-right: 30px;
+    }
+
+}
+
+@media screen and (max-width: 1015px) {
+    .navigation__list-item {
+        padding-right: 25px;
+    }
+
+}
