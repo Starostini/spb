@@ -4,6 +4,8 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"/>
+   <link rel="stylesheet" type="text/css" href="css/slick.css"/>
    <link rel="stylesheet" href="css/normalize.css">
    <link rel="stylesheet" href="css/main.css">
    <link rel="stylesheet" href="css/media.css">
@@ -44,6 +46,9 @@
       <div class="container">
          <div class="header__home">
             <nav class="navigation">
+               <div class="navigation__menu"><svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M0.666748 8.33333H20.6667V11.6667H0.666748V8.33333ZM0.666748 0H27.3334V3.33333H0.666748V0ZM0.666748 20H12.7251V16.6667H0.666748V20Z" fill="white"/>
+                  </svg></div>
                <ul class="navigation__list">
                   <li class="navigation__list-item"><a href="#" class="nav-btn">Главная</a></li>
                   <li class="navigation__list-item"><a href="#" class="nav-btn">о театре</a></li>
@@ -78,11 +83,41 @@
                         </svg></a>
                   </div>
                </div>
+               <!-- <div class="header__slider">
+                  <a href="#" class="slider__link"><img src="img/slider-bg.jpg" alt="" class="img__top"><img
+                        src="img/slider-bg-back.jpg" alt="" class="img__back"></a>
+                  <div class="header__slider-nav">
+                     <a href="#" class="left-btn"><svg width="41" height="16" viewBox="0 0 41 16" class="img__left"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M0.292892 7.2929C-0.0976296 7.68342 -0.0976295 8.31659 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41422 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928935C7.68054 0.538411 7.04738 0.538411 6.65685 0.928935L0.292892 7.2929ZM41 7L1 7L1 9L41 9L41 7Z" />
+                        </svg> пред</a><a href="#" class="right-btn">след <svg width="41" height="16"
+                           viewBox="0 0 41 16" class="img__right" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M40.7071 8.70711C41.0976 8.31659 41.0976 7.68342 40.7071 7.2929L34.3431 0.928938C33.9526 0.538414 33.3195 0.538414 32.9289 0.928938C32.5384 1.31946 32.5384 1.95263 32.9289 2.34315L38.5858 8.00001L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM-1.74846e-07 9L40 9.00001L40 7.00001L1.74846e-07 7L-1.74846e-07 9Z" />
+                        </svg></a>
+                  </div>
+               </div>
+               <div class="header__slider">
+                  <a href="#" class="slider__link"><img src="img/slider-bg.jpg" alt="" class="img__top"><img
+                        src="img/slider-bg-back.jpg" alt="" class="img__back"></a>
+                  <div class="header__slider-nav">
+                     <a href="#" class="left-btn"><svg width="41" height="16" viewBox="0 0 41 16" class="img__left"
+                           xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M0.292892 7.2929C-0.0976296 7.68342 -0.0976295 8.31659 0.292893 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41422 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928935C7.68054 0.538411 7.04738 0.538411 6.65685 0.928935L0.292892 7.2929ZM41 7L1 7L1 9L41 9L41 7Z" />
+                        </svg> пред</a><a href="#" class="right-btn">след <svg width="41" height="16"
+                           viewBox="0 0 41 16" class="img__right" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M40.7071 8.70711C41.0976 8.31659 41.0976 7.68342 40.7071 7.2929L34.3431 0.928938C33.9526 0.538414 33.3195 0.538414 32.9289 0.928938C32.5384 1.31946 32.5384 1.95263 32.9289 2.34315L38.5858 8.00001L32.9289 13.6569C32.5384 14.0474 32.5384 14.6805 32.9289 15.0711C33.3195 15.4616 33.9526 15.4616 34.3431 15.0711L40.7071 8.70711ZM-1.74846e-07 9L40 9.00001L40 7.00001L1.74846e-07 7L-1.74846e-07 9Z" />
+                        </svg></a>
+                  </div>
+               </div> -->
             </div>
          </div>
       </div>
    </header>
-   <main class="main">
+  <!-- <main class="main">
       <section class="about">
          <div class="container">
             <h2 class="about__title title"><span>о</span> театре</h2>
@@ -166,10 +201,10 @@
             </div>
          </div>
       </section>
-      <!-- <section class="nominations">
+      <section class="nominations">
          <div class="container">
             <div class="nominations__inner">
-               <img src="img/nominations-bg.jpg" alt="">
+               <div class="nominations__mask"></div>
                <div class="nominations__info">
                   <div class="nominations__years">
                      <ul class="nominations__list">
@@ -484,6 +519,10 @@
          </div>
       </div>
    </footer> -->
+   <script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+   <script type="text/javascript" src="js/slick.js"></script>
+   <!-- <script type="text/javascript" src="js/jquery.formstyler.min.js"></script> -->
+   <script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>

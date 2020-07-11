@@ -138,6 +138,8 @@ span {
   padding-top: 51px;
   display: flex;
   justify-content: space-between; }
+  .navigation__menu {
+    display: none; }
   .navigation__list {
     display: flex;
     justify-content: space-between;
@@ -250,6 +252,9 @@ span {
   margin: 0 auto;
   max-width: 2920px; }
 
+.slick-slide {
+  width: 443px !important; }
+
 .staging {
   padding-bottom: 150px;
   position: relative; }
@@ -317,22 +322,27 @@ span {
   margin: 0 auto;
   -webkit-box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.75);
-  box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.75); }
-  .nominations__inner::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #333333;
-    opacity: 0.7; }
+  box-shadow: 1px 1px 6px 3px rgba(0, 0, 0, 0.75);
+  background-image: url(../img/nominations-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 540px; }
+
+.nominations__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #333333;
+  opacity: 0.7;
+  transition: 0.5s ease-in-out; }
+  .nominations__mask:hover {
+    opacity: 0; }
 
 .nominations__years, .nominations__text {
   margin: auto 0; }
-
-.nominations__years {
-  padding-left: 190px; }
 
 .nominations__text {
   max-width: 480px;
@@ -346,7 +356,8 @@ span {
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 1; }
+  z-index: 1;
+  justify-content: center; }
 
 .nominations__list {
   font-weight: bold;
@@ -379,7 +390,7 @@ span {
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-evenly; }
 
 .maecenas__contacts {
   display: flex;
