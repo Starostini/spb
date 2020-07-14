@@ -50,11 +50,49 @@
   .navigation {
     justify-content: space-between; }
     .navigation__list {
-      display: none; }
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      display: block;
+      background-color: #333333;
+      margin: 0;
+      padding-top: 140px;
+      padding-left: 39px; }
+      .navigation__list-item {
+        padding-bottom: 35px; }
     .navigation__menu {
       display: block; }
-  .header__social {
+  .social__list {
+    flex-wrap: wrap;
+    width: 230px;
+    margin-bottom: 86px;
+    padding: 0px;
+    justify-content: center;
+    flex-direction: row; }
+    .social__list li {
+      padding: 20px; }
+  .navigation__show {
+    display: block; }
+  .navigation__none {
     display: none; }
+  .social__text {
+    display: none; }
+  .social__inst svg {
+    width: 45px;
+    height: 45px; }
+  .social__face svg {
+    width: 26px;
+    height: 45px; }
+  .social__vk svg {
+    width: 45px;
+    height: 31px; }
+  .social__yout svg {
+    width: 45px;
+    height: 24px; }
+  .header__social {
+    z-index: 1;
+    top: auto; }
   .container {
     padding-left: 114px;
     padding-right: 39px; } }
