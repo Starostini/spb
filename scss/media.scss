@@ -7,25 +7,24 @@
     }
 }
 @media screen and (max-width: 1375px) {
-.maecenas__contacts {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    display: grid;
-    justify-content: space-between;
-}
-.maecenas__email {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    text-align: end;
-}
-.form__target {
-    padding-bottom: 80px;
-}
+    .maecenas__contacts {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        display: grid;
+        justify-content: space-between;
+    }
+    .maecenas__email {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        text-align: end;
+    }
+    .form__target {
+        padding-bottom: 80px;
+    }
 }
 @media screen and (max-width: 1324px) {
-
     .navigation {
         justify-content: center;
         flex-wrap: wrap;
@@ -52,85 +51,161 @@
     .nominations__inner {
         max-width: 100%;
     }
-
 }
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1159px) {
     .navigation__list-item {
         padding-right: 30px;
     }
-
 }
 
 @media screen and (max-width: 1015px) {
     .navigation__list-item {
         padding-right: 25px;
     }
+}
+@media screen and (max-width: 991px) {
+    .container {
+        padding-left: 39px;
+        padding-right: 39px;
+    }
+    //* Необходимо(нет) для убирания меню с социалками
+    // .header__social {
+    //     left: -230px;
+    // }
+    .header__content {
+        justify-content: center;
+    }
 
-}
-@media screen and (max-width: 990px) {
-.navigation {
-justify-content: space-between;
-&__list {
-    // display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    display: block;
-    background-color: #333333;
-    margin: 0;
-    padding-top: 140px;
-    padding-left: 39px;
-    &-item {
-        padding-bottom: 35px;
+    .navigation {
+        justify-content: space-between;
+        &__animation {
+            //* Анимация для меню (выезд слева)
+            animation-name: example;
+            animation-duration: 1s;
+        }
+        &__display-none {
+            //* Дисплей нон для меню.
+            display: none;
+        }
+        &__list {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            display: block;
+            background-color: #333333;
+            margin: 0;
+            padding-top: 140px;
+            padding-left: 39px;
+            &-item {
+                padding-bottom: 35px;
+            }
+        }
+        &__menu {
+            display: block;
+        }
+    }
+    .social__list {
+        flex-wrap: wrap;
+        width: 230px;
+        margin-bottom: 140px;
+        padding: 0px;
+        justify-content: center;
+        flex-direction: row;
+        & li {
+            padding: 20px;
+        }
+    }
+    .navigation__show {
+        display: block;
+    }
+    .navigation__none {
+        display: none;
+    }
+    .social__text {
+        display: none;
+    }
+    .social__inst svg {
+        width: 45px;
+        height: 45px;
+    }
+    .social__face svg {
+        width: 26px;
+        height: 45px;
+    }
+    .social__vk svg {
+        width: 45px;
+        height: 31px;
+    }
+    .social__yout svg {
+        width: 45px;
+        height: 24px;
+    }
+    .social__inst,
+    .social__face,
+    .social__vk,
+    .social__yout {
+        fill-opacity: 1;
+    }
+    .header__social {
+        z-index: 1;
+        top: auto;
+    }
+    .about__inner {
+        justify-content: space-around;
+    }
+    .container__inner {
+        padding-left: 39px;
+        max-height: 550px;
+    }
+    .nominations__text {
+        padding-left: 20px;
+    }
+    //! Переделать под слайдер партнеров!
+    .partners__inner {
+        justify-content: space-around;
+    }
+    .form__target {
+        grid-template-columns: [first] 180px [line2] 180px [line3] 270px;
     }
 }
-&__menu {
-    display: block;
+@media screen and (max-width: 767px) {
+    .container {
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+    .header__text {
+        max-width: 510px;
+    }
+    .about__inner {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about__number-title {
+        padding-top: 35px;
+        width: 100%;
+    }
+    .about__number {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: baseline;
+    }
+    .partners__inner-item {
+        margin: 25px;
+    }
+    
 }
-}
-.social__list {
-    flex-wrap: wrap;
-    width: 230px;
-    margin-bottom: 86px;
-    padding: 0px;
-    justify-content: center;
-    flex-direction: row;
-    & li {
-        padding: 20px;
+
+//! Начинается отключение правил при уменьшении дисплея!
+
+@media screen and (min-width: 992px) {
+    .header__left {
+        margin-right: 40px;
     }
 }
-.navigation__show {
-    display: block;
-}
-.navigation__none {
-    display: none;
-}
-.social__text {
-    display: none;
-}
-.social__inst svg {
-    width: 45px;
-    height: 45px;
-}
-.social__face svg {
-    width: 26px;
-    height: 45px;
-}
-.social__vk svg {
-    width: 45px;
-    height: 31px;
-}
-.social__yout svg {
-    width: 45px;
-    height: 24px;
-}
-.header__social {
-    z-index: 1;
-    top: auto;
-}
-.container {
-    padding-left: 114px;
-    padding-right: 39px;
-}
+@media screen and (min-width: 768px) {
+    .about__theater-text {
+        max-width: 450px;
+    }
 }

@@ -30,6 +30,12 @@ h5,
 p {
   margin: 0; }
 
+@keyframes example {
+  from {
+    left: -230px; }
+  to {
+    left: 0; } }
+
 span {
   color: #d1a954; }
 
@@ -59,7 +65,7 @@ span {
     font-weight: bold;
     font-size: 64px;
     line-height: 87px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.098em;
     text-transform: uppercase;
     color: #ffffff;
     margin-bottom: 50px; }
@@ -68,7 +74,7 @@ span {
     font-size: 14px;
     line-height: 150%;
     margin-bottom: 50px;
-    min-width: 540px; }
+    max-width: 540px; }
   .header__btn {
     font-weight: bold;
     font-size: 18px;
@@ -84,7 +90,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 40px; }
+    max-width: 540px; }
   .header__right {
     margin-left: 40px; }
 
@@ -224,8 +230,7 @@ span {
 .about__theater-text {
   font-weight: normal;
   font-size: 17px;
-  line-height: 150%;
-  max-width: 450px; }
+  line-height: 150%; }
 
 .about__inner {
   display: flex;
@@ -347,7 +352,7 @@ span {
 .nominations__text {
   max-width: 480px;
   text-align: left;
-  padding-left: 100px; }
+  padding-left: 65px; }
 
 .nominations__info {
   display: flex;
@@ -423,7 +428,7 @@ span {
     color: #ffffff;
     font-weight: bold;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 20px;
     letter-spacing: 0.1em;
     text-transform: uppercase; }
   .form__target label {

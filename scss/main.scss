@@ -1,6 +1,9 @@
 @import "permanent";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
-
+@keyframes example {
+    from {left: -230px;}
+    to {left: 0;}
+  }
 span {
     color: #d1a954;
 }
@@ -32,7 +35,7 @@ span {
         font-weight: bold;
         font-size: 64px;
         line-height: 87px;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.098em;
         text-transform: uppercase;
         color: #ffffff;
         margin-bottom: 50px;
@@ -42,7 +45,7 @@ span {
         font-size: 14px;
         line-height: 150%;
         margin-bottom: 50px;
-        min-width: 540px;
+        max-width: 540px;
     }
     &__btn {
         font-weight: bold;
@@ -60,7 +63,7 @@ span {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin-right: 40px;
+        max-width: 540px;
     }
     &__right {
         margin-left: 40px;
@@ -250,7 +253,6 @@ span {
         font-weight: normal;
         font-size: 17px;
         line-height: 150%;
-        max-width: 450px;
     }
     &__inner {
         display: flex;
@@ -388,7 +390,7 @@ span {
     &__text {
         max-width: 480px;
         text-align: left;
-        padding-left: 100px;
+        padding-left: 65px;
     }
     &__info {
         display: flex;
@@ -475,7 +477,7 @@ span {
             color: #ffffff;
             font-weight: bold;
             font-size: 18px;
-            line-height: 25px;
+            line-height: 20px;
             letter-spacing: 0.1em;
             text-transform: uppercase;
         }

@@ -38,7 +38,7 @@
   .nominations__inner {
     max-width: 100%; } }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1159px) {
   .navigation__list-item {
     padding-right: 30px; } }
 
@@ -46,9 +46,19 @@
   .navigation__list-item {
     padding-right: 25px; } }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 991px) {
+  .container {
+    padding-left: 39px;
+    padding-right: 39px; }
+  .header__content {
+    justify-content: center; }
   .navigation {
     justify-content: space-between; }
+    .navigation__animation {
+      animation-name: example;
+      animation-duration: 1s; }
+    .navigation__display-none {
+      display: none; }
     .navigation__list {
       position: absolute;
       top: 0;
@@ -66,7 +76,7 @@
   .social__list {
     flex-wrap: wrap;
     width: 230px;
-    margin-bottom: 86px;
+    margin-bottom: 140px;
     padding: 0px;
     justify-content: center;
     flex-direction: row; }
@@ -90,11 +100,52 @@
   .social__yout svg {
     width: 45px;
     height: 24px; }
+  .social__inst,
+  .social__face,
+  .social__vk,
+  .social__yout {
+    fill-opacity: 1; }
   .header__social {
     z-index: 1;
     top: auto; }
+  .about__inner {
+    justify-content: space-around; }
+  .container__inner {
+    padding-left: 39px;
+    max-height: 550px; }
+  .nominations__text {
+    padding-left: 20px; }
+  .partners__inner {
+    justify-content: space-around; }
+  .form__target {
+    grid-template-columns: [first] 180px [line2] 180px [line3] 270px; } }
+
+@media screen and (max-width: 767px) {
   .container {
-    padding-left: 114px;
-    padding-right: 39px; } }
+    padding-left: 33px;
+    padding-right: 33px; }
+  .header__text {
+    max-width: 510px; }
+  .about__inner {
+    flex-direction: column;
+    text-align: center; }
+  .about__number-title {
+    padding-top: 35px;
+    width: 100%; }
+  .about__number {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: baseline; }
+  .partners__inner-item {
+    margin: 25px; } }
+
+@media screen and (min-width: 992px) {
+  .header__left {
+    margin-right: 40px; } }
+
+@media screen and (min-width: 768px) {
+  .about__theater-text {
+    max-width: 450px; } }
 
 /*# sourceMappingURL=media.css.map */

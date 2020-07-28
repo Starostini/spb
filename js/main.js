@@ -16,15 +16,19 @@ $('.staging__slider').slick({
             }
         },
         {
-            breakpoint: 1020,
+            breakpoint: 992,
             settings: {
                 arrows: false,
                 centerPadding: '0px',
                 slidesToShow: 1
             }
-        }
+        },
+
     ]
 });
+
+let btn = document.querySelector('.navigation__menu');
+btn.addEventListener('click', document.querySelector('.navigation__list').classList.add = "navigation__animation");
 // $('.header__right').slick({
 //     centerMode: true,
 //     arrows: false,
