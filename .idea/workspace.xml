@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7873fa35-29bd-4a62-a3e6-cb69ea716a6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/css/jquery.fancybox.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/media.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Line.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arr-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/arr-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/chair.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/closed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cross.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/face.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/gazprom.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/inst.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nominations-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/scene.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/search-img.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-bg-back.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/slider-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/staging-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/staging-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/staging-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/staging-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vk.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/yout.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery-3.5.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/jquery.fancybox.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_permanent.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/media.scss" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lNhl9TVpj5HFhKq6jVdYrhU0uu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7873fa35-29bd-4a62-a3e6-cb69ea716a6b" name="Default Changelist" comment="" />
+      <created>1607443605329</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607443605329</updated>
+      <workItem from="1607443606455" duration="1182000" />
+      <workItem from="1607448626879" duration="7737000" />
+      <workItem from="1608054138692" duration="1851000" />
+      <workItem from="1608056211941" duration="1770000" />
+      <workItem from="1608058950736" duration="77000" />
+      <workItem from="1608059044647" duration="256000" />
+      <workItem from="1608059598732" duration="203000" />
+      <workItem from="1608059889029" duration="100000" />
+      <workItem from="1608137265408" duration="11208000" />
+      <workItem from="1608724566974" duration="16000" />
+      <workItem from="1608730145326" duration="24380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
