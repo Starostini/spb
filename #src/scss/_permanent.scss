@@ -3,7 +3,9 @@
 *::after,
 *::before {
   box-sizing: border-box; }
-
+html {
+  scroll-behavior: smooth;
+}
 ul {
   list-style-type: none; }
 
@@ -21,7 +23,9 @@ body {
   font-family: OpenSans-Light;
   color: #ffffff;
   margin: 0 auto;
-  background-color: #333333; }
+  background-color: #333333;
+
+}
 
 h1,
 h2,

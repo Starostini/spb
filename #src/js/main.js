@@ -23,7 +23,6 @@ let btn = document.querySelector('.navigation__menu'),
     body = document.body,
     slider = document.querySelector('.staging__slider'),
     sliderInner = document.querySelectorAll('.staging__inner'),
-    currentPosition = 0,
     marginLeft = +window.getComputedStyle(slider).marginLeft.slice(0,+window.getComputedStyle(slider).marginLeft.length-2),
     marginRight = +window.getComputedStyle(slider).marginRight.slice(0,+window.getComputedStyle(slider).marginRight.length-2);
     slider.style.width = `${document.documentElement.clientWidth- (marginLeft + marginRight)}px`;
@@ -73,9 +72,68 @@ body.addEventListener('click', function(event) {
     }
 });
 
+//TODO Распределение блоков слайдера по порядку
+
 let pixelStart = 0;
 for(let slide of sliderInner) {
     let pixel = 442;
     slide.style.left = `${pixelStart}px`;
     pixelStart = pixelStart + pixel;
+}
+
+//TODO Подключение анимации якорей для недобраузеров
+let linkNavs = document.querySelectorAll('.nav-btn'),
+    V = 0.15;
+for (let linkNav of linkNavs) {
+    linkNav.addEventListener('click', function(e) {
+        e.preventDefault();
+        let w = window.pageYOffset,
+            hash = linkNav.getAttribute('href').substr(1),
+            t = document.getElementById(hash).getBoundingClientRect().top,
+            start = null;
+
+        requestAnimationFrame(step);
+        function step(time) {
+            if (start === null) start = time;
+            let progress = time - start,
+                r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+            window.scrollTo(0,r);
+            if (r != w + t) {
+                requestAnimationFrame(step)
+            } else {
+                location.hash = hash
+            }
+        }
+    }, false);
+}
+
+//TODO подключение слайдера
+let x = 100;
+while (x>0) {
+    // linkNav.addEventListener('click', function(e) {
+    //     e.preventDefault();
+    //     let w = window.pageYOffset,
+    //         hash = linkNav.getAttribute('href').substr(1),
+    //         t = document.getElementById(hash).getBoundingClientRect().top,
+    //         start = null;
+    //
+    //     requestAnimationFrame(step);
+    //     function step(time) {
+    //         if (start === null) start = time;
+    //         let progress = time - start,
+    //             r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
+    //         window.scrollTo(0,r);
+    //         if (r != w + t) {
+    //             requestAnimationFrame(step)
+    //         } else {
+    //             location.hash = hash
+    //         }
+    //     }
+    // }, false);
+
+    console.log(x);
+    x--;
+    if(x===0) {
+        console.log('end');
+    }
 }
