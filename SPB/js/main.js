@@ -72,7 +72,7 @@ body.addEventListener('click', function(event) {
     }
 });
 
-//TODO Распределение блоков слайдера по порядку
+//Sort slides for slider
 
 let pixelStart = 0;
 for(let slide of sliderInner) {
@@ -81,7 +81,7 @@ for(let slide of sliderInner) {
     pixelStart = pixelStart + pixel;
 }
 
-//TODO Подключение анимации якорей для недобраузеров
+//Connect anchor for old ver. of browsers
 let linkNavs = document.querySelectorAll('.nav-btn'),
     V = 0.15;
 for (let linkNav of linkNavs) {
@@ -107,33 +107,27 @@ for (let linkNav of linkNavs) {
     }, false);
 }
 
-//TODO подключение слайдера
+//TODO slider
 let x = 100;
 while (x>0) {
-    // linkNav.addEventListener('click', function(e) {
-    //     e.preventDefault();
-    //     let w = window.pageYOffset,
-    //         hash = linkNav.getAttribute('href').substr(1),
-    //         t = document.getElementById(hash).getBoundingClientRect().top,
-    //         start = null;
-    //
-    //     requestAnimationFrame(step);
-    //     function step(time) {
-    //         if (start === null) start = time;
-    //         let progress = time - start,
-    //             r = (t < 0 ? Math.max(w - progress/V, w + t) : Math.min(w + progress/V, w + t));
-    //         window.scrollTo(0,r);
-    //         if (r != w + t) {
-    //             requestAnimationFrame(step)
-    //         } else {
-    //             location.hash = hash
-    //         }
-    //     }
-    // }, false);
-
     console.log(x);
     x--;
     if(x===0) {
         console.log('end');
     }
+}
+
+let sliderMask = document.querySelectorAll('.staging__inner');
+
+for (let slides of sliderMask) {
+    slides.addEventListener('mouseover', function(event) {
+        console.dir(slides);
+        let slideLength = slides.style.left.length-2;
+        let leftBorder = +slides.style.left.slice(0,slideLength);
+        console.log(leftBorder);
+    })
+}
+
+function isSliderInRightPlace(event, slides) {
+
 }
