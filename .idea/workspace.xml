@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7873fa35-29bd-4a62-a3e6-cb69ea716a6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/#src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/#src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/#src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/#src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore.rtf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPB/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/SPB/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPB/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SPB/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPB/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/SPB/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SPB/js/main.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SPB/js/main.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +56,7 @@
       <workItem from="1608724566974" duration="16000" />
       <workItem from="1608730145326" duration="31599000" />
       <workItem from="1608913605926" duration="826000" />
-      <workItem from="1609621950190" duration="6380000" />
+      <workItem from="1609621950190" duration="7337000" />
     </task>
     <servers />
   </component>
