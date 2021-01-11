@@ -106,7 +106,6 @@ for (let linkNav of linkNavs) {
         }
     }, false);
 }
-
 //TODO slider
 let x = 100;
 while (x>0) {
@@ -125,7 +124,6 @@ for (let slides of sliderMask) {
         let slideLength = slides.style.left.length-2;
         let leftBorder = +slides.style.left.slice(0,slideLength);
         console.log(leftBorder);
-
     })
 }
 
